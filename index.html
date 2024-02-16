@@ -7,6 +7,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <link rel="stylesheet" href="style.css">
   <script src="main.js"></script>
   <title>Frontend Mentor | Base Apparel coming soon page</title>
@@ -15,12 +19,14 @@
 <body>
   <article>
    <nav>
-    <div class="animate">
-      <img src="./images/logo.svg" alt="logo" width="100">
-    </div>
+   
+      <img src="./images/logo.svg" alt="logo" width="100"
+      class="animate__animated animate__backInLeft">
+  
    </nav>
 
-   <div id="content">
+   <div id="content" 
+   class="animate__animated animate__backInLeft">
    <h1>We're</h1>
    <h1 id="head">coming <br> soon</h1> 
    
@@ -41,7 +47,8 @@
   
    </div>
   
-   <div id="background"></div>
+   <div id="background"
+   class="animate__animated animate__backInRight"></div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

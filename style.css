@@ -29,7 +29,7 @@ div#background {
     background-repeat: no-repeat;
     background-position: right;
     position: relative;
-    bottom: 40pc;
+    bottom: 35pc;
     
 }
 
@@ -96,7 +96,21 @@ button:hover {
     color: white;
 }
 
-/* ANIMATION */
+/* LARGE VIEW */
+
+@media screen and (max-width:1024px) {
+ 
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    div#background {
+        background-size: 410px;
+        height: 810px;
+    }
+
+    
+}
 
 
 /* TABLET VIEW SECTION */

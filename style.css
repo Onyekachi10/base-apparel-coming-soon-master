@@ -19,13 +19,13 @@
 
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
+   
 }
 
 div#background {
     background-image: url("./images/hero-desktop.jpg");
     background-size: 610px;
-    height: 810px;
+    height: screen;
     background-repeat: no-repeat;
     background-position: right;
     position: relative;
@@ -117,7 +117,6 @@ button:hover {
  @media screen and (max-width:900px) and (min-width:600px) {
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
     div#background {
@@ -134,7 +133,6 @@ button:hover {
 @media screen and (max-width:600px) and (min-width:400px){
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
 
